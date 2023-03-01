@@ -1,0 +1,11 @@
+#container {
+    display: grid;
+    grid-template-columns: 2fr 5fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: "calendar-small calendar-large events";
+    grid-gap: 5px;
+}
+
+#calendarSmall {
+    grid-area: "calendar-small";
+}
